@@ -1,0 +1,233 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header {
+  color: #faebd7; /***Antique White***/
+  height: 800px;
+  text-align: center; 
+  background-image: url(http://www.destination360.com/north-america/us/north-carolina/images/s/appalachian-mountains.jpg);
+  background-size: cover;
+}
+
+
+
+.header h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 68px;
+  text-transform: uppercase;
+	line-height: 300px; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+  text-shadow: 2px 2px 4px #fff;
+  /***text-shadow: 2px 2px 4px #000000;***/
+}
+
+.header p {
+  font: #faebd7;  /***Antique White***/
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 8px;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+    font-weight: lighter;
+}
+
+
+
+.btn {
+  color: #faebd7;
+  background: #5D7D85; /**Blueish Grey***/
+  border: 1px solid;
+  padding: 10px 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+  
+
+.btn:hover {
+	background:#FE5B35;  /**Red**/
+  outline: none;
+	cursor: pointer; 
+	transition: background .5s; 
+  color: #fff;  /***White***/
+}
+
+
+/* Nav */
+a {
+  text-decoration: none;
+  color: #e3caa8;
+}
+
+.nav {
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+.nav ul {
+  height: 50px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+  
+.nav ul li {
+  height: 24px;
+  list-style: none;
+	margin: 0 auto; 
+	padding: 0 10px;
+  transition: background .5s;
+	text-align: center;
+  display: inline-block;
+  color:#fff;
+}
+
+.nav ul li:hover {
+  background: #FE5B35;  /**Red**/
+  cursor: pointer;
+  transition: background .5s;
+}
+  
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.main img {
+  display: inline;
+  float: left;
+  margin: 35px 80px;
+
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+  color: #faebd7;  /***Antique White***/
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+	text-align: center;
+  background: url(http://www.destination360.com/north-america/us/north-carolina/images/s/appalachian-mountains.jpg) center center;
+  background-size: cover;
+  padding: 10px 40px;
+  
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+  margin-bottom: 20px;
+
+}
+
+
+
+/* Footer */
+
+.footer {
+  margin-bottom: 30px;
+}
+
+.footer a { 
+	height: 80px;
+  background: #fff;
+  color:#e3caa8;
+}
+
+.footer a:hover {
+  background-color: red;
+}
+
+.footer p {
+  color: #e3caa8;  /***Gold Cream***/
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 50px;
+}
+
+.footer ul li {
+  height: 20px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0 10px;
+  transition: background .5s;
+  text-align: center;
+  display: inline-block;
+  color: #e3caa8;  /***Gold Cream***/
+}
+
+/****.footer ul li:hover {
+  text-align: center;
+  background: #dfe5e3;
+  cursor: pointer;
+  transition: background .5s;
+}****/
+.footer .btn {
+  font: #faebd7;
+  background-color: #5D7D85;  /***Gold Cream***/
+}
+
+.footer .btn:hover {
+  text-align: center;
+  background: #dfe5e3; /***Sky Blue***/
+  cursor: pointer;
+  transition: background .5s;
+  font: #faebd7;
+  background-color: #FE5B35; /***Red***/
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+    .header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+
+  }
+}
